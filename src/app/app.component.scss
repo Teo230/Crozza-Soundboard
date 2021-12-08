@@ -1,0 +1,28 @@
+h1{
+    margin: auto 0;
+    text-align: center;
+}
+
+mat-toolbar{
+    background-color: black;
+    height: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+}
+
+mat-toolbar .toolbar-link{
+    margin-left: 5px;
+    margin-right: 5px;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+    border: solid 2px green;
+    padding: 3px 10px;
+}
+
+.group-title{
+    background-color: black;
+    width: auto;
+    color: white;
+}

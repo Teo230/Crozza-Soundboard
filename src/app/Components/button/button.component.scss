@@ -1,0 +1,39 @@
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    margin: 20px;
+    
+}
+
+button{
+    font-family: 'Architects Daughter', cursive;
+    min-width: 400px;
+    font-weight: bold;
+    border: solid 3px green;
+    background-color: white;
+    color: red;
+    font-size: 25px;
+    padding: 5px 20px 5px 20px;
+    cursor: pointer;
+    border-style:dotted;
+}
+
+@keyframes change-colors {
+    from{
+        background-color: white;
+        color: red;
+    }
+    to{
+        background-color: red;
+        color: white;
+    }
+}
+
+button:hover{
+    animation-duration: 0.5s;
+    animation-name: change-colors;
+    background-color: red;
+    color: white;
+}
