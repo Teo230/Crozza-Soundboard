@@ -26,6 +26,7 @@ export class ButtonComponent implements OnInit {
 
   playSound(){
     sound.src = this.src;
+    console.log('If you want download it ->',sound.src);
     sound.load();
     sound.play();
   }

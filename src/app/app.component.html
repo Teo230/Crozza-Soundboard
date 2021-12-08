@@ -9,7 +9,7 @@
 <div *ngFor="let group of playItems">
     <h1 class="group-title" id="{{group.groupTitle}}">{{group.groupTitle}}</h1>
     <div *ngFor="let item of group.sounds">
-        <xyz-button text="{{item.title}}" src="{{item.src}}"></xyz-button>
+        <xyz-button text="{{item.title}}" src="{{baseHref + item.src}}"></xyz-button>
     </div>
 </div>
 
